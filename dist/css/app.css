@@ -1,0 +1,30 @@
+html, body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #111;
+    background-color: #ffffff;
+    -webkit-text-size-adjust: 100%;
+    padding: 0;
+    text-rendering: optimizelegibility;
+    font-style: normal;
+    outline: none !important;
+    scroll-behavior: smooth;
+    outline-color: transparent;
+    -ms-text-size-adjust: 100%;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
