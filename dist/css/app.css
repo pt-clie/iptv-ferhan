@@ -23,6 +23,20 @@ html, body {
     user-select: none;
 }
 
+.btn {
+    border-radius: 0;
+}
+
+.whatsapp-icon {
+    margin-top: -3px;
+    margin-right: 5px;
+}
+@media (max-width: 768px) {
+    .price-sm-box{
+        margin-bottom: 15px; margin-top: 15px
+    }
+}
+
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
