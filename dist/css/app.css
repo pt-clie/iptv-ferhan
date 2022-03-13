@@ -27,13 +27,52 @@ html, body {
     border-radius: 0;
 }
 
+.navbar-toggler:focus, .navbar-toggler {
+    border: none !important;
+}
+
 .whatsapp-icon {
     margin-top: -3px;
     margin-right: 5px;
 }
+
+.card-image {
+    width: auto;
+    height: 250px;
+}
+
+.price-top-head {
+    background: #ad15c7;
+    padding: 30px 10px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.price-action {
+    background: #ff5097;
+    padding: 15px 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.price-action > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.experience-sec-img {
+    background-image: url('../img/mix/Our_Experience.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: auto;
+}
+
 @media (max-width: 768px) {
-    .price-sm-box{
-        margin-bottom: 15px; margin-top: 15px
+    .price-sm-box {
+        margin-bottom: 15px;
+        margin-top: 15px
     }
 }
 
