@@ -74,6 +74,14 @@ html, body {
         margin-bottom: 15px;
         margin-top: 15px
     }
+
+    .sm-text-center {
+        text-align: center;
+    }
+
+    .mb-sm-5 {
+        margin-bottom: 30px;
+    }
 }
 
 @media (min-width: 768px) {
